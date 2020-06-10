@@ -1,0 +1,33 @@
+*Comandos/Movimientos básicos
+
+C: Control
+M: Alt
+
+C-x C-f: abrir o crear un archivo.
+C-x C-s: guarda los cambios realizados.
+C-g: Quit.
+C-x ->: mueve al buffer de la derecha
+C-x <-: mueve al buffer de la izquierda
+C-x k: cerrar buffer (el seleccionado)
+F10: muestra el menú
+C-x 2: realiza una división horizontal (agrega otra ventana)
+C-x 3: realiza una división vertical (agrega otra ventana)
+C-x 1: una sola ventana
+C-x o: pasar de una ventana a otra (horario)
+C-u - C-x o: pasar de una ventana a otra (antihorario)
+C-space: activa selección.
+M-w: copia
+C-y: pega
+C-w: corta
+
+*Comandos básicos
+M-x package-list-packages: lista de paquetes.
+
+
+*Código
+- yasnippets     : para crar atajos de código.
+- crear Makefile : C-x C-f Makefile.
+- M-x compile    : para compilar.
+- S-M-!          : ejecutar (colocamos make run).
+
+
